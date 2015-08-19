@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+.form-group
+  label.col-${2:sm-2}.control-label[for="textarea${1/(\w+)/\u\1/g}"]
+    | ${1/(\w+)/\u\1/g}:
+  .col-${3:sm-10}
+    |  <textarea name="${1}" id="textarea${1/(\w+)/\u\1/g}" class="form-control" rows="${4:3}" ${5:required="required"}>${6}
+]]></content>
+  <tabTrigger>bs3-textarea:h</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

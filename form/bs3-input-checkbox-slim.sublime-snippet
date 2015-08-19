@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+.checkbox
+  label
+    input[type="checkbox" value="${1}"]
+    |  ${2:Checkbox} 
+]]></content>
+  <tabTrigger>bs3-input:checkbox</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

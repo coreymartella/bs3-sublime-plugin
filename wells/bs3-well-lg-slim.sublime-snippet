@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+.well.well-lg
+  |  ${0} 
+]]></content>
+  <tabTrigger>bs3-well:lg</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

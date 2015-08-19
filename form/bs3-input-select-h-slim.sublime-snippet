@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.form-group
+  label.col-${2:sm-2}.control-label[for="input${1/(\w+)/\u\1/g}"]
+    | ${1/(\w+)/\u\1/g}:
+  .col-${3:sm-10}
+    select#input${1/(\w+)/\u\1/g}.form-control[name="${1}"]
+      option[value=""]
+        | ${4:-- Select One --}
+]]></content>
+  <tabTrigger>bs3-input:select:h</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

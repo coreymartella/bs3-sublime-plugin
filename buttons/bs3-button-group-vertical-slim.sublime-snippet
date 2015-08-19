@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+.btn-group-vertical
+  |  <${1:button} ${2:type="button"} class="btn btn-default">Top</${1:button}> <${1:button} ${2:type="button"} class="btn btn-default">Middle</${1:button}> <${1:button} ${2:type="button"} class="btn btn-default">Bottom</${1:button}> 
+]]></content>
+  <tabTrigger>bs3-group:vertical</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

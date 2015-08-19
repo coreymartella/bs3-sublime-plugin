@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+a.btn.btn-sm.btn-default.disabled[href="#" role="button"]
+  | button
+]]></content>
+  <tabTrigger>bs3-sm-link-button:disabled</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

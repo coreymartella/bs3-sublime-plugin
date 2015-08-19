@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.btn-group-vertical
+  a.btn.btn-default[href="#" role="button"]
+    | Top
+  a.btn.btn-default[href="#" role="button"]
+    | Middle
+  a.btn.btn-default[href="#" role="button"]
+    | Bottom
+]]></content>
+  <tabTrigger>bs3-link-group:vertical</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

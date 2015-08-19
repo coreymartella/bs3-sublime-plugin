@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+.well
+  |  ${0} 
+]]></content>
+  <tabTrigger>bs3-well</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

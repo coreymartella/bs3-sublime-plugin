@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+ul.pager
+  li.previous
+    a[href="#"]
+      | ← Older
+  li.next
+    a[href="#"]
+      | Newer →
+]]></content>
+  <tabTrigger>bs3-pager:aligned</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

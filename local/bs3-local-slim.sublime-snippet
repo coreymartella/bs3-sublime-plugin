@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+link[rel="stylesheet" media="screen" href="${1:bootstrap.min.css}"]
+|  ${2:
+script[src="jquery.js"]
+| } 
+script[src="${3:bootstrap.min.js}"]
+]]></content>
+  <tabTrigger>bs3-local</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

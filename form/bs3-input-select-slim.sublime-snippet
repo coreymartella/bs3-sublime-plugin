@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+select#input${1/(\w+)/\u\1/g}.form-control[name="${1}"]
+  option[value=""]
+    | ${2:-- Select One --}
+]]></content>
+  <tabTrigger>bs3-input:select</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

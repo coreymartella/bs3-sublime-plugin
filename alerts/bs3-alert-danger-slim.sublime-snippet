@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.alert.alert-danger
+  button.close[type="button" data-dismiss="alert" aria-hidden="true"]
+    | ×
+  strong
+    | ${1:Title!}
+  |  ${2:Alert body ...} 
+]]></content>
+  <tabTrigger>bs3-alert:danger</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

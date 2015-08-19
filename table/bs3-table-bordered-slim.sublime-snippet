@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+table.table.table-bordered.${1:table-hover}
+  thead
+    tr
+      th
+  tbody
+    tr
+      td
+]]></content>
+  <tabTrigger>bs3-table:bordered</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

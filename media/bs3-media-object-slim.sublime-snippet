@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+.media
+  a.pull-left[href="${1:#}"]
+    img.media-object[src="${2:#}" alt="${3:Image}"]
+  .media-body
+    h4.media-heading
+      | ${4:Media heading}
+    p
+      | ${5:Text goes here...}
+]]></content>
+  <tabTrigger>bs3-media-object</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+table.table.table-striped.${1:table-hover}
+  thead
+    tr
+      th
+  tbody
+    tr
+      td
+]]></content>
+  <tabTrigger>bs3-table:striped</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

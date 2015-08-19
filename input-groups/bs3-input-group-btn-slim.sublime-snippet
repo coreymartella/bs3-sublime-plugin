@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+span.input-group-btn
+  button.btn.btn-default[type="button"]
+    | Go!
+]]></content>
+  <tabTrigger>bs3-input-group-btn</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+.input-group
+  .input-group-addon
+    | ${1:\$}
+  input#exampleInputAmount.form-control[type="text" placeholder="Amount"]
+]]></content>
+  <tabTrigger>bs3-input-group:addon:text</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

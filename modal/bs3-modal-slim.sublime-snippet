@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+|  ${1:
+a.btn.btn-primary[data-toggle="modal" href="#${2:modal-id}"]
+  | Trigger modal
+| } 
+#${2:modal-id}.modal.fade
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close[type="button" data-dismiss="modal" aria-hidden="true"]
+          | ×
+        h4.modal-title
+          | ${3:Modal title}
+      .modal-body
+        |  ${0} 
+      .modal-footer
+        button.btn.btn-default[type="button" data-dismiss="modal"]
+          | ${4:Close}
+        button.btn.btn-primary[type="button"]
+          | ${5:Save changes}
+]]></content>
+  <tabTrigger>bs3-modal</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+.input-group-addon
+  | ${1:\$}
+]]></content>
+  <tabTrigger>bs3-input-group-addon</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

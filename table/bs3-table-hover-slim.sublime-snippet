@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+table.table.table-hover
+  thead
+    tr
+      th
+  tbody
+    tr
+      td
+]]></content>
+  <tabTrigger>bs3-table:hover</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

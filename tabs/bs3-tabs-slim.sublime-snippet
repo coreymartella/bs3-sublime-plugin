@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+div[role="tabpanel"]
+  ul.nav.nav-tabs[role="tablist"]
+    li.active[role="presentation"]
+      a[href="#${1:home}" aria-controls="${1:home}" role="tab" data-toggle="tab"]
+        | ${1:home}
+    li[role="presentation"]
+      a[href="#${2:tab}" aria-controls="${2:tab}" role="tab" data-toggle="tab"]
+        | ${2:tab}
+  .tab-content
+    #${1:home}.tab-pane.active[role="tabpanel"]
+      | ...
+    #${2:tab}.tab-pane[role="tabpanel"]
+      | ...
+]]></content>
+  <tabTrigger>bs3-tabs</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+|  ${1:
+script[src="//code.jquery.com/jquery.js"]
+| } 
+script[src="//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js"]
+]]></content>
+  <tabTrigger>bs3-cdn:js</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>

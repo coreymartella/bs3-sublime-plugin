@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+.form-group
+  .col-sm-${1:10}.col-offset-${2:2}
+    input.btn.btn-default[type="reset" value="${3:Reset}"]
+]]></content>
+  <tabTrigger>bs3-input:reset:h</tabTrigger> 
+  <scope>source.slim</scope>
+</snippet>
